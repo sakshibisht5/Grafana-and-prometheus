@@ -1,4 +1,5 @@
-#Monitoring with Prometheus and Grafana
+# Monitoring with Prometheus and Grafana
+
 This project sets up a monitoring stack using Prometheus and Grafana to collect and visualize system metrics.
 
 Node Exporter is used to collect system-level metrics, such as CPU usage, memory, disk, and network stats. These metrics are exposed on a specific port (9100), which Prometheus scrapes at regular intervals. Prometheus itself serves as the data collection and storage layer, scraping metrics from Node Exporter and storing them for visualization.
